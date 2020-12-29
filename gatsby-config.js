@@ -6,7 +6,14 @@ const shouldAnalyseBundle = process.env.ANALYSE_BUNDLE
 
 module.exports = {
   siteMetadata: {
-    siteTitleAlt: `Minimal Blog - Gatsby Theme`,
+    siteTitle: `Minwook Chang`,
+    siteTitleAlt: `Minwook Chang Blog`,
+    siteHeadline: `Minwook Chang`,
+    siteDescription: `장민욱 블로그`,
+    siteUrl: `https://abc.deeeeeee`,
+    siteLanguage: `KR`,
+    siteImage: ``,
+    author: `@minwook`,
   },
   plugins: [
     {
@@ -24,13 +31,13 @@ module.exports = {
           },
         ],
         externalLinks: [
-          {
-            name: `Twitter`,
-            url: `https://twitter.com/lekoarts_de`,
-          },
+          //{
+          //  name: `Twitter`,
+          //  url: `https://twitter.com/lekoarts_de`,
+          //},
           {
             name: `Instagram`,
-            url: `https://www.instagram.com/lekoarts.de/`,
+            url: `https://www.instagram.com/wookie_v/`,
           },
         ],
       },
@@ -45,9 +52,9 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `minimal-blog - @lekoarts/gatsby-theme-minimal-blog`,
-        short_name: `minimal-blog`,
-        description: `Typography driven, feature-rich blogging theme with minimal aesthetics. Includes tags/categories support and extensive features for code blocks such as live preview, line numbers, and code highlighting.`,
+        name: `Minwook Chang`,
+        short_name: `Chang`,
+        description: `장민욱 블로그`,
         start_url: `/`,
         background_color: `#fff`,
         theme_color: `#6B46C1`,
