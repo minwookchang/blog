@@ -6,9 +6,6 @@ const shouldAnalyseBundle = process.env.ANALYSE_BUNDLE
 
 module.exports = {
   siteMetadata: {
-<<<<<<< HEAD
-    siteTitleAlt: `Minimal Blog - Gatsby Theme`,
-=======
     siteTitle: `Minwook Chang`,
     siteTitleAlt: `Minwook Chang Blog`,
     siteHeadline: `Minwook Chang`,
@@ -17,7 +14,6 @@ module.exports = {
     siteLanguage: `KR`,
     siteImage: ``,
     author: `@minwook`,
->>>>>>> 8db8b6861bf852d9e97a9d896bba9404031b5302
   },
   plugins: [
     {
@@ -35,15 +31,6 @@ module.exports = {
           },
         ],
         externalLinks: [
-<<<<<<< HEAD
-          {
-            name: `Twitter`,
-            url: `https://twitter.com/lekoarts_de`,
-          },
-          {
-            name: `Instagram`,
-            url: `https://www.instagram.com/lekoarts.de/`,
-=======
           //{
           //  name: `Twitter`,
           //  url: `https://twitter.com/lekoarts_de`,
@@ -51,7 +38,6 @@ module.exports = {
           {
             name: `Instagram`,
             url: `https://www.instagram.com/wookie_v/`,
->>>>>>> 8db8b6861bf852d9e97a9d896bba9404031b5302
           },
         ],
       },
@@ -66,15 +52,9 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-<<<<<<< HEAD
-        name: `minimal-blog - @lekoarts/gatsby-theme-minimal-blog`,
-        short_name: `minimal-blog`,
-        description: `Typography driven, feature-rich blogging theme with minimal aesthetics. Includes tags/categories support and extensive features for code blocks such as live preview, line numbers, and code highlighting.`,
-=======
         name: `Minwook Chang`,
         short_name: `Chang`,
         description: `장민욱 블로그`,
->>>>>>> 8db8b6861bf852d9e97a9d896bba9404031b5302
         start_url: `/`,
         background_color: `#fff`,
         theme_color: `#6B46C1`,
